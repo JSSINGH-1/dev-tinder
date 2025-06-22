@@ -53,7 +53,6 @@ connectDB()
     console.log("Mongoose connected successfully");
 
     app.listen(PORT, () =>{
-    ss
   })
   })
   .catch((error) => {
