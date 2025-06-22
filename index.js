@@ -49,11 +49,11 @@ app.post('/signup', async (req , res) =>{
 
 connectDB()
   .then(() => {
+    console.log("Hi Janmejay Singh");
     console.log("Mongoose connected successfully");
 
     app.listen(PORT, () =>{
-    
-      console.log(`server listen on port ${PORT}`);
+    ss
   })
   })
   .catch((error) => {
